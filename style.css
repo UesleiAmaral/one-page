@@ -15,44 +15,83 @@
 }
 
 body{
+  margin: 0 auto;
+  width: 90%;
 }
 
 a {
   text-decoration: none;
 }
 
-img {
+h2{
   width: 100%;
 }
 
-.section-form{
+.section-contact {
   display: flex;
+
   background-color: var(--main-color);
-  padding-bottom: 40px;
+
 }
 
-.figure {
-  width: 40%;
+.figure-contact {
+  width: 90%;
+
 }
 
-
-.figure img {
+.figure-contact img {
   width: 100%;
+  margin-bottom: 45px;
+
+}
+
+.section-form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
 
 }
 
 .figure-envelope{
-  background-color: white;
-  width: 5%;
-  padding: 15px;
-  position: absolute;
-  top: 0;
-  left: 0;
+  padding: 20px 30px;
+  background-color: var(--tertiary-color);
+  height: fit-content;
 }
 
-.section-form form{
-  position: relative;
+.section-form form {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+  width: 90%;
+  margin: 0 auto;
+
+  row-gap: 10px;
+
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+
+  height: 10vh;
+
+}
+
+label input, textarea{
+  height: 100%;
+
+}
+
+#phone,
+#mensage {
+  width: 100%;
+}
+
+#name,
+#email {
+  width: 48%;
+  
 }
