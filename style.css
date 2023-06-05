@@ -49,7 +49,7 @@ h2{
 .figure-contact img {
   width: 100%;
   margin-bottom: 45px;
-
+  height: 90%;
 }
 
 .section-form {
@@ -130,4 +130,34 @@ label input::placeholder{
 .button-send:hover{
   background-color: var(--primary-text-color);
   color: var(--main-color);
+}
+
+.footer-tel{
+  background-color: var(--secondary-bg-color);
+  height: 450px;
+  width: 25%;
+  padding-top: 50px;
+  font-family: var(--ff-lato);
+  color: var(--primary-text-color);
+  padding: 15px;
+}
+
+.footer-tel h3{
+  padding-top: 30px;
+  padding-bottom: 50px;
+  font-family: var(--ff-lato);
+}
+
+.footer-tel p{
+  color: var(--secondary-color);
+  font-family: var(--ff-lato);
+  font-size: 16px;
+}
+
+#footer-number{
+  background-color: var(--main-color);
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-width: 30px;
 }
