@@ -132,6 +132,18 @@ label input::placeholder{
   color: var(--main-color);
 }
 
+.footer{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
 .footer-tel{
   background-color: var(--secondary-bg-color);
   height: 450px;
