@@ -220,6 +220,7 @@ li {
   padding: 6px;
 }
 
+<<<<<<< HEAD
 
 .footer-pages {
 
@@ -236,3 +237,55 @@ li {
   margin-bottom: 5px;
   padding-bottom: 10px;
 }
+=======
+#informacao {
+  background-color: #5c1011;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer-title{
+  background-color: #d92123;
+  padding: 0.8rem 3.7rem 0.8rem 0.5rem;
+  margin-top: 2rem;
+  color:var(--primary-text-color);
+}
+
+.box-footer p{
+  font-size: 0.8rem;
+  margin-top: 10px;
+  color:var(--primary-text-color);
+}
+
+.box-contacts p{
+  color:var(--primary-text-color);
+  font-size: 0.8rem;
+   display: flex;
+  gap: 10px;
+}
+ .box-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ }
+
+ .social-medias p{
+  color:var(--primary-text-color);
+  font-size: 0.9rem;
+  width: 100%;
+  margin-bottom: 10px;
+   }
+
+   .figure-face, .figure-twitter, .figure-linkedin, .figure-instagram{
+    background-color: #d92123;
+    padding: 12px;
+    }
+
+    .social-medias{
+      display: flex;
+      flex-wrap: wrap;
+    
+      gap: 5px;
+    }
+>>>>>>> ab8df6b871f62338f93d0bcf83917147f4d8c1f5
