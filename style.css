@@ -134,6 +134,7 @@ label input::placeholder {
 }
 
 .footer {
+  padding: 2rem 4rem;
   background-color: var(--secondary-bg-color);
   width: 100%;
   height: 20rem;
@@ -151,6 +152,8 @@ label input::placeholder {
   flex-direction: column;
   gap: 2rem;
 
+  width: 15rem;
+
 }
 
 ul {
@@ -163,14 +166,13 @@ ul {
   font-size: 1rem;
   font-weight: bold;
   color: var(--primary-text-color);
-  text-align: left;
   font-family: 'Lato';
-  line-height: 40px;
 
 }
 
 li {
   list-style: none;
+  border-bottom: 1px solid var(--tertiary-color);
 }
 
 .footer-nav {
@@ -181,14 +183,11 @@ li {
 
 .footer-tel {
 
-  padding-top: 50px;
   font-family: var(--ff-lato);
   color: var(--primary-text-color);
-  padding: 15px;
 }
 
 .footer-tel h3 {
-  padding-top: 30px;
   padding-bottom: 50px;
   font-family: var(--ff-lato);
 }
@@ -210,6 +209,8 @@ li {
   color: var(--primary-text-color);
   padding: 5px 5px 5px 14px;
   display: flex;
+
+  background-color: var(--secondary-bg-color);
 }
 
 #footer-description {
@@ -220,35 +221,17 @@ li {
   padding: 6px;
 }
 
-<<<<<<< HEAD
-
-.footer-pages {
-
-  color: var(--primary-text-color);
-
-  display: flex;
-  flex-direction: column;
-  gap: 60%;
-
-}
-
-li {
-  border-bottom: 1px solid var(--secondary-color);
-  margin-bottom: 5px;
-  padding-bottom: 10px;
-}
-=======
 #informacao {
+  width: 25rem;
   background-color: #5c1011;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .footer-title{
   background-color: #d92123;
-  padding: 0.8rem 3.7rem 0.8rem 0.5rem;
-  margin-top: 2rem;
+  padding: 0.8rem 0 0.8rem 0.5rem;
   color:var(--primary-text-color);
 }
 
@@ -288,4 +271,3 @@ li {
     
       gap: 5px;
     }
->>>>>>> ab8df6b871f62338f93d0bcf83917147f4d8c1f5
